@@ -43,6 +43,7 @@
 - Throughput
 - taxa na qual os bits são transferidos entre origem e destino
 
+## 1.5 Protocol layers, service models
 - Protocol "layers" - camadas de protocolo
 - network complexa, dividida em várias partes
 
@@ -63,6 +64,24 @@
 	- Camada de sessão: Ao transferir um arquivo no FTP, ao dar um problema na rede, perde-se tudo. É necessário começar tudo de novo. A ideia da camada de sessão é lidar com isso.
 	
 - Cada camada adiciona um cabeçalho da sua camada, com informações necessárias para poder executar as funções que se espera dessa camada.
+
+## 1.6 Networks under attack: security
+
+- Segurança em redes
+- Não faz parte do escopo da disciplina detalhar muito sobre segurança em redes
+- De fato a internet não foi desenhada com segurança em mente
+- A internet nasceu na forma de uma iniciativa entre um conjunto de usuários localizados entre universidades que queriam trocar dados
+- Usuários mutuamente confiáveis, sem razão para pensar em protocolos de segurança
+- Segurança semre foi um "remendo"
+- Proliferação de malwares:
+  - Hosts finais acabam recebendo objetos maliciosos que são acionados pelos usuários ou são executados mesmo que o usuário não peça para executar.
+  - Definição de vírus ou worm
+  - worm: instância sofisticada em que o usuário não precisa pedir para executar
+  - Ponto de partida para a construção de botnet: máquinas zombies que normalmente nem sabem que estão infectadas e podem iniciar um ataque contra um serviço
+  - Ip spoofing: envia pacotes com falsos endereços de origem
+
+## 1.7 History of internet
+- Professor disse para ler no livro, não comentou nada
 	
 	
 	
